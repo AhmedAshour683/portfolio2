@@ -1,0 +1,480 @@
+html{
+    scroll-behavior: smooth;
+}
+.navi-bar
+{
+    position: fixed !important;
+    z-index: 999999999;
+    width: 100%;
+}
+
+.background
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../imgs/imgs/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-brand
+{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.the-home
+{
+    position: absolute;
+}
+
+.the-home .fa-brands
+{
+    background-color: rgba(0,0,0,0.6);
+}
+
+.hello
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 55px;
+}
+.iam
+{
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 200;
+    vertical-align:middle;
+}
+
+/* start java script*/
+
+#container {
+	text-align: center;
+}
+
+.iam
+{
+  font-size: 43px;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	letter-spacing: 2px;
+  font-size: 43px;
+  line-height: 72px;
+  font-weight: 400;
+  
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: white;
+	animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: white; 
+	}
+}
+
+/* End java script*/
+
+
+.about .about-ui
+{
+    font-size: 14px;
+}
+
+.about .progress
+{
+    height: 25px;
+}
+
+.about .prog-span
+{
+ font-size: 13px;
+}
+
+.about .button1:hover .button1-a
+{
+    color: black !important;
+}
+
+.about .button1:hover
+{
+background-color: white;
+}
+
+
+.about .button2:hover .button2-a
+{
+    color: white !important;
+}
+
+.about .button2:hover
+{
+background-color: black;
+}
+
+.services .service1:hover .icon1
+{
+    background-color: black !important;
+    color: white !important;
+}
+
+.services .service2:hover .icon2
+{
+    background-color: black !important;
+    color: white !important;
+}
+.services .service3:hover .icon3
+{
+    background-color: black !important;
+    color: white !important;
+}
+.services .service4:hover .icon4
+{
+    background-color: black !important;
+    color: white !important;
+}
+.services .service5:hover .icon5
+{
+    background-color: black !important;
+    color: white !important;
+}
+.services .service6:hover .icon6
+{
+    background-color: black !important;
+    color: white !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.portfolio .porto
+{
+    overflow: hidden;
+}
+
+.portfolio .porto:hover .porto1
+{
+    position: absolute;
+    top: 7%;
+    left: 6%;
+    right: 6%;
+    bottom: 7%;
+    background-color: rgba(255,255,255,0.8);
+    transition-duration: .5s;
+    z-index: 10;
+}
+
+.portfolio .porto2
+{
+    visibility: hidden;
+    position: absolute;
+}
+
+.portfolio .porto:hover .porto2
+{
+    visibility: visible;
+    top: 50%;
+    left: 50%;
+
+}
+
+.porto1 .p
+{
+    visibility: hidden;
+    position: absolute;
+}
+
+.portfolio .porto:hover .p
+{
+    visibility: visible;
+    top: 40%;
+    left: 39%;
+
+}
+.porto1 .p
+{
+ font-family: 'Montserrat', sans-serif;
+}
+
+.caro-pic
+{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 170px;
+    margin-top: 50px;
+}
+
+
+.testmonials .carousel-indicators [data-bs-target] 
+{
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: black;
+}
+
+
+.counters-container
+{
+    width: 60%;
+    
+}
+.counters
+{
+    width: 25%;
+    margin: 15px;
+    text-align: center;
+
+}
+
+.count-icons
+{
+    color: black;
+    font-size: 32px;
+   
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#value1,#value2,#value3,#value4
+{
+    font-size: 32px;
+    line-height: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.counters p
+{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.ours .bg-bg
+{
+    background-color: #5B5B5B;
+}
+
+.ours .pic
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.ours .overlay
+{
+
+  background-color: rgba(255,255,255,0.9);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 90px;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+.ours .pic:hover .overlay
+{
+    opacity: 1;
+    transform: rotateY(180deg);
+}
+
+.ours .pic img
+{
+    transition-duration: 0.4s;
+}
+
+.ours .pic:hover img
+{
+    transform: scale(1.1);
+    
+}
+
+
+
+.ours .pic i
+{
+    padding-top: 50%;
+
+}
+.ours .pic:hover i
+{
+    transform: rotateY(180deg);
+}
+
+.ours .pic i:hover
+{
+    color:  #006eff;
+}
+
+
+
+
+.footer i
+{
+    border: solid black 0px;
+    padding: 25px 15px;
+    border-radius: 50%;
+    
+}
+
+.footer-cols:hover i
+{
+    background-color: black !important;
+    color: white;
+}
+
+.footer-button
+{
+    margin-top: 10px;
+    margin-left: 115px;
+    margin-bottom: 100px;
+    
+}
+
+.rights
+{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    
+}
+
+.rights p
+{
+    padding-top: 50px;
+}
+
+.navbar
+{
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.navbar-toggler
+{
+    background-color: white;
+}
+
+
+
+.underline1
+{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: -45px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.underline2
+{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.underline3
+{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 125px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.underline4
+{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 220px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.underline5
+{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 305px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.underline6
+{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 385px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.underline7
+{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 470px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.the-list:hover .underline1,.the-list:hover .underline2,.the-list:hover .underline3,.the-list:hover .underline4,.the-list:hover .underline5,.the-list:hover .underline6,.the-list:hover .underline7
+{
+    opacity: 1 !important;
+    transform: translateX(50px) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
